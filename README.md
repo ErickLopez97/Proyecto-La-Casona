@@ -1,6 +1,6 @@
 # Proyecto La Casona
 
-[![Proyecto-La-Casona-Products.png](https://i.postimg.cc/3NkPWSWK/Proyecto-La-Casona-Products.png)](https://postimg.cc/q6dm5G8Y)
+[![Proyecto-La-Casona-Products.png](https://i.postimg.cc/nrqNvsK5/Proyecto-La-Casona-Products.png)](https://postimg.cc/n9cdxhPY)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
 
