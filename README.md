@@ -1,5 +1,7 @@
 # ProyectoLaCasona
 
+[![Proyecto-La-Casona-Products.png](https://i.postimg.cc/3NkPWSWK/Proyecto-La-Casona-Products.png)](https://postimg.cc/q6dm5G8Y)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
 
 ## Development server
