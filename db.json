@@ -1,0 +1,89 @@
+{
+  "producto": [
+    {
+      "id": 1,
+      "caducidad": "2023-12-01",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto-la-casona.appspot.com/o/1.png?alt=media&token=0ea05d88-3852-40ee-a68e-30f88b2fe930",
+      "nombre": "Tata-Salt",
+      "precio": 20.99,
+      "old_precio": 30.99,
+      "unidades": 50,
+      "video": "https://www.youtube.com/watch?v=l73k71yHSZU"
+    },
+    {
+      "id": 2,
+      "caducidad": "2023-09-31",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto-la-casona.appspot.com/o/2.png?alt=media&token=005c0fba-2ba1-4556-9b81-19ba7a28ebb9",
+      "nombre": "Fortune-Sunflower",
+      "precio": 20.99,
+      "old_precio": 30.99,
+      "unidades": 45,
+      "video": "https://youtu.be/6s8EEQzv7hM"
+    },
+    {
+      "id": 3,
+      "caducidad": "2022-08-15",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto-la-casona.appspot.com/o/3.png?alt=media&token=43c56891-7869-4bef-8423-c517a2cbaa22",
+      "nombre": "Aashirvaad-Atta",
+      "precio": 40.99,
+      "old_precio": 40.99,
+      "unidades": 35,
+      "video": "https://www.youtube.com/watch?v=yChvfZpIgh8"
+    },
+    {
+      "id": 4,
+      "caducidad": "2022-09-05",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto-la-casona.appspot.com/o/3.png?alt=media&token=43c56891-7869-4bef-8423-c517a2cbaa22",
+      "nombre": "Sampann-Toor-Dal",
+      "precio": 35.99,
+      "old_precio": 45.99,
+      "unidades": 40,
+      "video": "https://www.youtube.com/watch?v=QnOLsl2vnMI&ab_channel=Apnacona2M"
+    },
+    {
+      "id": 5,
+      "caducidad": "2022-06-27",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto-la-casona.appspot.com/o/5.png?alt=media&token=7f26e0d4-8f02-4e73-b1a9-a14c82d999b9",
+      "nombre": "Parryss-Sugar",
+      "precio": 30.99,
+      "old_precio": 40.99,
+      "unidades": 45,
+      "video": "https://youtu.be/4NIiZ3c5JXg"
+    },
+    {
+      "id": 6,
+      "caducidad": "2022-12-31",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyecto-la-casona.appspot.com/o/6.png?alt=media&token=b7fb5601-ada9-4157-b18a-3532e7fdca58",
+      "nombre": "Saffola-Gold",
+      "precio": 80.99,
+      "old_precio": 90.99,
+      "unidades": 25,
+      "video": "https://youtu.be/-qxHnfhDPF8"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1
+    },
+    {
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

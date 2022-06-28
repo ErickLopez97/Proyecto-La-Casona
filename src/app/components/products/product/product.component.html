@@ -1,0 +1,52 @@
+	<div class="hover14 column">
+		<div class="agile_top_brand_left_grid">
+			<div class="agile_top_brand_left_grid_pos">
+				<img src="assets/images/offer.png" alt=" " class="img-responsive" />
+			</div>
+			<div class="agile_top_brand_left_grid1">
+				<figure>
+					<div class="snipcart-item block" >
+						<div class="snipcart-thumb">
+							<div align="center">
+								<a routerLink="../products"><img  title=" " alt=" " [src]="productItem.imagen" /></a>
+							</div>		
+							<p class="heart"> 
+								<strong> {{productItem.nombre}}</strong>			
+								<i *ngIf="addedToWishList" class="fa fa-heart c-heart" (click)="handleRemoveToWishList()"></i>	
+								<i *ngIf="!addedToWishList" class="fa fa-heart-o o-heart" (click)="handleAddToWishList()"></i>
+							</p>
+							<p>Caducidad: {{productItem.caducidad}}
+							</p>
+							<p>Existencias: {{productItem.unidades}}
+							</p>
+							<div class="stars">Review: <a target="_blank" href={{productItem.video}}>
+								<i class="fa fa-star blue-star" aria-hidden="true"></i>
+								<i class="fa fa-star blue-star" aria-hidden="true"></i>
+								<i class="fa fa-star blue-star" aria-hidden="true"></i>
+								<i class="fa fa-star blue-star" aria-hidden="true"></i>
+								<i class="fa fa-star gray-star" aria-hidden="true"></i>
+								</a>
+							</div>
+							<h4>{{productItem.precio | currency: 'USD'}}<span>{{productItem.old_precio | currency:'USD'}}</span></h4>
+						</div>
+						<div class="snipcart-details top_brand_home_details">
+							<form action="#" method="product">
+								<fieldset>
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" />
+									<input type="hidden" name="business" value=" " />
+									<input type="hidden" name="item_name" value="Fortune Sunflower Oil" />
+									<input type="hidden" name="amount" value="20.99" />
+									<input type="hidden" name="discount_amount" value="1.00" />
+									<input type="hidden" name="currency_code" value="USD" />
+									<input type="hidden" name="return" value=" " />
+									<input type="hidden" name="cancel_return" value=" " />
+									<input type="submit" name="submit" value="Add to cart" class="button" />
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</figure>
+			</div>
+		</div>
+	</div>

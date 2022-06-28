@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { InfoProductoService } from './services/infoproduct.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Proyecto-La-Casona';
+  title = 'Proyecto La Casona';
+  
+  constructor( public servicio: InfoProductoService){
+  }
+  
 }
