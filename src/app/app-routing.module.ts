@@ -5,6 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ProductComponent } from './components/products/product/product.component';
 import { ProductsComponent } from './components/products/products.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -16,7 +17,8 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{useHash:true})], //TODO # HASH
+  imports: [RouterModule.forRoot(routes,{useHash:true}),NgbModule], //TODO # HASH
   exports: [RouterModule]  //EXPORTAMOS LAS RUTAS PARA PODERLAS USAR
+
 })
 export class AppRoutingModule { }

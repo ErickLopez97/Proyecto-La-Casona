@@ -3,6 +3,7 @@ import { productUrl } from 'src/app/config/api';
 import { Product } from 'src/app/models/product';
 import { WishlistService } from 'src/app/services/wishlist.service';
 import { InfoProductoService } from '../../../services/infoproduct.service';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-product',
@@ -14,9 +15,13 @@ export class ProductComponent implements OnInit {
   @Input() productItem!: Product;
   @Input() addedToWishList!: boolean;
 
-
+  stars(i:number){
+    return new Array(i);
+  }
+  
   constructor(
-    private wishlistService: WishlistService
+    private wishlistService: WishlistService,
+    private servicio: InfoProductoService
     ) { }
 
   ngOnInit(): void {
@@ -25,7 +30,6 @@ export class ProductComponent implements OnInit {
   handleAddToWishList(){
     this.wishlistService.addToWishlist(this.productItem.id).subscribe(()=>{
       console.log(this.addedToWishList = true);
-   
     })
   }
 

@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 //import { AngularFireModule } from '@angular/fire';
@@ -20,6 +20,10 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { environment } from 'src/environments/environment';
+import { SortPipe } from './pipe/sort.pipe';
+import { ToArrayPipeU } from './pipe/toArrayUp.pipe';
+import { toArray } from 'rxjs';
+import { ToArrayPipeD } from './pipe/toArrayDown.pipe';
 
 @NgModule({
   declarations: [
@@ -31,7 +35,10 @@ import { environment } from 'src/environments/environment';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent, 
+    SortPipe,
+    ToArrayPipeU,
+    ToArrayPipeD
   ],
   imports: [
     BrowserModule,
@@ -40,6 +47,7 @@ import { environment } from 'src/environments/environment';
     ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/models/product';
 import { InfoProductoService } from 'src/app/services/infoproduct.service';
 import { WishlistService } from 'src/app/services/wishlist.service';
+import { SortPipe } from 'src/app/pipe/sort.pipe';
 
 @Component({
   selector: 'app-products',

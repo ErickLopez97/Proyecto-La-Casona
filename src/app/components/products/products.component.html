@@ -16,8 +16,11 @@
 								<p class="w3l-ad">We've pulled together all our advertised offers into one place, so you won't miss out on a great deal.</p>
 							</div>
 							<div class="agile_top_brands_grids">
-								<div *ngFor="let products of productList" class="col-md-4 top_brand_left">
-									<app-product [productItem]="products" [addedToWishList]="wishlist.indexOf(products.id) >= 0"></app-product>
+								<div *ngFor="let products of productList | sort: 'star'" class="col-md-4 top_brand_left">
+									<app-product 
+										[productItem]="products" 
+										[addedToWishList]="wishlist.indexOf(products.id) >= 0">
+									</app-product>
 								</div>
 								<div class="clearfix"> </div>
 							</div>

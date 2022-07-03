@@ -3,7 +3,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { InfoProducto } from '../interface/producto.interface';
 import { Product } from '../models/product';
-import { Observable } from 'rxjs';
+import { map, Observable } from 'rxjs';
+import { productUrl } from '../config/api';
 
 const apiUrl = 'http://localhost:3000/producto';
 

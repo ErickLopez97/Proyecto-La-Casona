@@ -7,8 +7,9 @@ export class Product {
     unidades: string;
     imagen: string;
     video: string;
+    star:number;
 
-    constructor(id=0, nombre = '', precio = '',old_precio='', caducidad = '', unidades = '', imagen = '', video = ''){
+    constructor(id=0, nombre = '', precio = '',old_precio='', caducidad = '', unidades = '', imagen = '', video = '',star=0){
         this.id = id
         this.nombre = nombre
         this.precio = precio
@@ -17,5 +18,7 @@ export class Product {
         this.unidades = unidades
         this.imagen = imagen
         this.video = video
+        this.star = star
+
     }
 }

@@ -20,11 +20,9 @@
 							<p>Existencias: {{productItem.unidades}}
 							</p>
 							<div class="stars">Review: <a target="_blank" href={{productItem.video}}>
-								<i class="fa fa-star blue-star" aria-hidden="true"></i>
-								<i class="fa fa-star blue-star" aria-hidden="true"></i>
-								<i class="fa fa-star blue-star" aria-hidden="true"></i>
-								<i class="fa fa-star blue-star" aria-hidden="true"></i>
-								<i class="fa fa-star gray-star" aria-hidden="true"></i>
+								<!-- {{productItem.star}}  -->
+								<i *ngFor="let star of (productItem.star | toArrayUp)" class="fa fa-star blue-star" aria-hidden="true"></i>
+								<i *ngFor="let star of (productItem.star | toArrayDown)" class="fa fa-star gray-star" aria-hidden="true"></i>
 								</a>
 							</div>
 							<h4>{{productItem.precio | currency: 'USD'}}<span>{{productItem.old_precio | currency:'USD'}}</span></h4>

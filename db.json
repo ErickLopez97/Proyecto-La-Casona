@@ -8,7 +8,8 @@
       "precio": 20.99,
       "old_precio": 30.99,
       "unidades": 50,
-      "video": "https://www.youtube.com/watch?v=l73k71yHSZU"
+      "video": "https://www.youtube.com/watch?v=l73k71yHSZU",
+      "star":3
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "precio": 20.99,
       "old_precio": 30.99,
       "unidades": 45,
-      "video": "https://youtu.be/6s8EEQzv7hM"
+      "video": "https://youtu.be/6s8EEQzv7hM",
+      "star":5
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "precio": 40.99,
       "old_precio": 40.99,
       "unidades": 35,
-      "video": "https://www.youtube.com/watch?v=yChvfZpIgh8"
+      "video": "https://www.youtube.com/watch?v=yChvfZpIgh8",
+      "star":2
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "precio": 35.99,
       "old_precio": 45.99,
       "unidades": 40,
-      "video": "https://www.youtube.com/watch?v=QnOLsl2vnMI&ab_channel=Apnacona2M"
+      "video": "https://www.youtube.com/watch?v=QnOLsl2vnMI&ab_channel=Apnacona2M",
+      "star":1
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "precio": 30.99,
       "old_precio": 40.99,
       "unidades": 45,
-      "video": "https://youtu.be/4NIiZ3c5JXg"
+      "video": "https://youtu.be/4NIiZ3c5JXg",
+      "star":3
     },
     {
       "id": 6,
@@ -58,12 +63,19 @@
       "precio": 80.99,
       "old_precio": 90.99,
       "unidades": 25,
-      "video": "https://youtu.be/-qxHnfhDPF8"
+      "video": "https://youtu.be/-qxHnfhDPF8",
+      "star":4
     }
   ],
   "wishlist": [
     {
+      "id": 4
+    },
+    {
       "id": 1
+    },
+    {
+      "id": 6
     },
     {
       "id": 3
